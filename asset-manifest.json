@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/bees/static/css/main.4ad2ab95.chunk.css",
-    "main.js": "/bees/static/js/main.03a9d0f7.chunk.js",
-    "main.js.map": "/bees/static/js/main.03a9d0f7.chunk.js.map",
+    "main.js": "/bees/static/js/main.37097579.chunk.js",
+    "main.js.map": "/bees/static/js/main.37097579.chunk.js.map",
     "runtime-main.js": "/bees/static/js/runtime-main.7932a8d1.js",
     "runtime-main.js.map": "/bees/static/js/runtime-main.7932a8d1.js.map",
-    "static/js/2.09323f06.chunk.js": "/bees/static/js/2.09323f06.chunk.js",
-    "static/js/2.09323f06.chunk.js.map": "/bees/static/js/2.09323f06.chunk.js.map",
+    "static/js/2.2b0d29b1.chunk.js": "/bees/static/js/2.2b0d29b1.chunk.js",
+    "static/js/2.2b0d29b1.chunk.js.map": "/bees/static/js/2.2b0d29b1.chunk.js.map",
     "index.html": "/bees/index.html",
-    "precache-manifest.c42b09ae50cbc3c65529fdf6970e7669.js": "/bees/precache-manifest.c42b09ae50cbc3c65529fdf6970e7669.js",
+    "precache-manifest.b59d8781efaca25eb3eb9dd7acf707b3.js": "/bees/precache-manifest.b59d8781efaca25eb3eb9dd7acf707b3.js",
     "service-worker.js": "/bees/service-worker.js",
     "static/css/main.4ad2ab95.chunk.css.map": "/bees/static/css/main.4ad2ab95.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.7932a8d1.js",
-    "static/js/2.09323f06.chunk.js",
+    "static/js/2.2b0d29b1.chunk.js",
     "static/css/main.4ad2ab95.chunk.css",
-    "static/js/main.03a9d0f7.chunk.js"
+    "static/js/main.37097579.chunk.js"
   ]
 }

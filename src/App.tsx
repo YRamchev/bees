@@ -12,7 +12,7 @@ import NoMatch from './pages/NoMatch'
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
           {/* {Object.keys(pages).map((name, i) => (
             <Route path={`/${name.toLowerCase()}`} key={i}>

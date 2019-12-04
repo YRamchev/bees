@@ -6,6 +6,7 @@ export default function Page() {
     <main>
       <section className="cover">
         <div className="container">
+          <img src="images/logo.png" alt=""/>
           <div className="cover__info">
             <h1>
               System for monitoring bee families and contributing to their
@@ -16,13 +17,13 @@ export default function Page() {
       </section>
       <section className="system">
         <div className="container">
-          <h1>In order to complete this task,</h1>
+          <h1>Technology</h1>
           <p>
-            there shall be used аn embedded automated system which gathers
+            An embedded automated system which gathers
             information from the beehive and transfers it via an external
             antenna to the main server.
           </p>
-          <p>The information the system collects includes</p>
+          <p>The information the system collects includes:</p>
           <ul>
             <li>Weight of the hive</li>
             <li>Internal hive temperature and humidity</li>
@@ -41,23 +42,23 @@ export default function Page() {
           </p>
         </div>
       </section>
-      <section className="analyzing">
+      <section className="analyzing" >
         <div className="container">
         <p>
             Analyzing large volumes of data with machine learning algorithms can
             provide detailed information about the current state of a bee family
-            and to predict the future one.
+            and predict the future one.
           </p>
           <p>
-            The collected and analyzed data is reliable and provides key
+            The collected and analyzed data is reliable and review key
             information in a non-intrusive way and without modifying the
-            family`s condition. The beekeeper is able to serve more beehives, as
+            family's condition. Beekeepers can serve more beehives, as
             the system is fully scalable, easily deployable and saves time and
             resources.
           </p>
           <p>
             This information is accessible through a computer or a mobile
-            device. The beekeeper is able to monitor the apiary’s condition
+            device. Beekeepers are able to monitor the apiary’s condition
             remotely, and correspondingly, in case of a current or future
             problem in a given bee family, they can take preventive measures,
             which will reduce the loss of bees to the minimum.
@@ -73,20 +74,20 @@ export default function Page() {
           </p>
           <ul>
             <li>
-              Loss of valuable working time. Sometimes, part of the bee families
-              do not need checking
+              Loss of valuable working time. Sometimes, bee families
+              do not need checking.
             </li>
             <li>
               Decline in production, as a result of the intervention of the
               beekeeper, who unnecessarily disrupted the work process in the bee
-              family. The recovery of bees' normal rhythm takes a few days
+              family. The recovery of bees' normal rhythm takes a few days.
             </li>
             <li>
               Loss of bees. When checking a bee family, there is always a high
               risk of killing worker bees or inadvertently losing, or killing
               the bee mother. This will likely result in a delay in the bee
               family development, which is detrimental to the obtained
-              production, especially during the honey harvesting period
+              production, especially during the honey harvesting period.
             </li>
             <li>
               Deterioration in the quality of honey and other bee products. When
@@ -99,8 +100,8 @@ export default function Page() {
 
       <section className="features">
         <div className="container">
-        <p>
-            The methodology is based on research of studies, research
+          <p>
+            The methodology is based on the research of studies,
             papers, in-depth analysis of beekeepers discussions, synthesizing
             data from a variety of sources, comparing expert opinions, creating
             and testing a couple of prototypes.
@@ -119,7 +120,7 @@ export default function Page() {
               </div>
               <h3>Mihail Mladenov</h3>
               <p>
-                Founder <br /> Apiary Owner <br/> (200 BeeHives)
+                Founder <br /> Apiary Owner <br/> Data Mining Engineer
               </p>
             </div>
             <div className="member">
@@ -131,17 +132,17 @@ export default function Page() {
             </div>
             <div className="member">
               <div className="member__image">
+                <img src="images/kremena.png" alt="" />
+              </div>
+              <h3>Kremena Vasileva</h3>
+              <p>Software Engineer</p>
+            </div>
+            <div className="member">
+              <div className="member__image">
                 <img src="images/sestrata.jpg" alt="" />
               </div>
               <h3>Gergana Mladenova-Ivanova</h3>
               <p>Media Analyst and Content Moderator</p>
-            </div>
-            <div className="member">
-              <div className="member__image">
-                <img src="images/rojo.png" alt="" />
-              </div>
-              <h3>Georgi Atanasov</h3>
-              <p>Software engineer</p>
             </div>
             <div className="member">
               <div className="member__image">
@@ -152,12 +153,39 @@ export default function Page() {
             </div>
             <div className="member">
               <div className="member__image">
+                <img src="images/rojo.png" alt="" />
+              </div>
+              <h3>Georgi Atanasov</h3>
+              <p>Software Engineer</p>
+            </div>
+          </div>
+          <div className="members">
+            <div className="member">
+              <div className="member__image">
+                <img src="images/mi6o-bashta.jpg" alt="" />
+              </div>
+              <h3>Kolyo Iliev</h3>
+              <p>
+                Research Head of Agricultural Sciences<br />
+                Apiary Owner
+              </p>
+            </div>
+            <div className="member">
+              <div className="member__image">
                 <img src="images/bkr7.png" alt="" />
               </div>
               <h3>Krasimir Yordanov</h3>
               <p>
-                Apiary owner <br />
-                (103 BeeHives)
+                Apiary Owner
+              </p>
+            </div>
+            <div className="member">
+              <div className="member__image">
+                <img src="images/stan.png" alt="" />
+              </div>
+              <h3>Stanislav Cholakov</h3>
+              <p>
+                Apiary Owner
               </p>
             </div>
           </div>
@@ -166,9 +194,9 @@ export default function Page() {
       <footer className="footer">
         <div className="container">
           <p>
-            Feel free to contact us at:
+            Feel free to contact us at: &nbsp;
             <a href="mailto:beevolute@gmail.com">
-            beevolute@gmail.com
+             beevolute@gmail.com
             </a>
           </p>
           <p>All rights reserved 2019</p>
